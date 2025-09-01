@@ -1,19 +1,19 @@
-# Atividade CSS 1 - Página de Perfil | Portfólio
+# Atividade HTML 3 - Página de Perfil com Portfólio
 
 ## Descrição
 
-[cite_start]Este projeto é uma página de perfil pessoal e portfólio. Atividade da disciplina de Desenvolvimento Web[cite: 2, 3]. [cite_start]O objetivo é aplicar os conhecimentos de HTML e CSS para criar um perfil que apresente informações, habilidades e aprendizados[cite: 6].
+Este projeto é uma página de perfil pessoal e portfólio. É uma atividade da disciplina de Desenvolvimento Web. O objetivo é aplicar os conhecimentos de HTML e CSS para criar um perfil que apresente informações, habilidades e aprendizados.
 
-[cite_start]O projeto foi desenvolvido no 4º semestre do curso de Análise e Desenvolvimento de Sistemas (ADS) na instituição UNIFACEAR[cite: 1, 3].
+O projeto foi desenvolvido no 4º semestre do curso de Análise e Desenvolvimento de Sistemas (ADS) na instituição UNIFACEAR.
 
 ## Funcionalidades
 
-- [cite_start]**Cabeçalho personalizado:** com título (seu nome) e um subtítulo com uma frase motivacional[cite: 11].
+- **Cabeçalho personalizado:** com título (seu nome) e um subtítulo com uma frase motivacional.
 - **Seções bem definidas:** Sobre Mim, Habilidades, O que Aprendi, Projetos e Fale Comigo.
-- [cite_start]**Lista de habilidades:** utilizando `<ul>`[cite: 14].
-- [cite_start]**Tabela de aprendizado:** exibindo tecnologias, status de domínio e comentários[cite: 15].
-- [cite_start]**Seção de projetos:** com cards e links para projetos reais[cite: 16].
-- [cite_start]**Formulário de contato:** com campos obrigatórios para nome, e-mail e mensagem[cite: 17].
+- **Lista de habilidades:** utilizando `<ul>`.
+- **Tabela de aprendizado:** exibindo tecnologias, status de domínio e comentários.
+- **Seção de projetos:** com cards e links para projetos reais.
+- **Formulário de contato:** com campos obrigatórios para nome, e-mail e mensagem.
 - **Responsividade:** Layout adaptável para telas de computador, tablet e celular.
 - **Ícones de redes sociais:** para facilitar o contato e a navegação.
 
