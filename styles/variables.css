@@ -1,0 +1,7 @@
+:root {
+    --primary-color: #ffe600; /* Amarelo */
+    --secondary-color: #fff; /* Branco */
+    --background-color: #121212; /* Preto escuro */
+    --text-color: #f4f4f4; /* Cinza claro para texto */
+    --card-bg: #1e1e1e; /* Preto um pouco mais claro para cards */
+}

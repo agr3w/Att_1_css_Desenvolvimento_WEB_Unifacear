@@ -1,0 +1,60 @@
+/* Seção "O que Aprendi" */
+.learning-section {
+    background-color: var(--card-bg);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    background-color: var(--background-color);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+th,
+td {
+    padding: 15px;
+    text-align: left;
+    color: var(--text-color);
+    border-bottom: 1px solid #333;
+}
+
+th {
+    background-color: #2a2a2a;
+    color: var(--secondary-color);
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+tr:nth-child(even) {
+    background-color: #1a1a1a;
+}
+
+/* Estilo para os Badges de Status */
+.status-badge {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.status-badge.complete {
+    background-color: #28a745;
+    /* Verde para concluído */
+}
+
+.status-badge.in-progress {
+    background-color: #ffc107;
+    /* Amarelo para em andamento */
+}
+
+tr:nth-child(even) {
+    background-color: #1e1e1e;
+}
+

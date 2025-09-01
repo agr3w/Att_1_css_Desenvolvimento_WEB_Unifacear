@@ -1,0 +1,179 @@
+<!-- 
+                                    **Atividade de CSS 1** 
+    | Professora: ROSANETE GRASSIANI DOS SANTOS | 4° Semestre ADS | Desenvolvimento Web |
+    | Aluno: Weslley Luiz Kampa | Data: 01/09/2025
+    | Descrição: Criando um Portfolio pessoal com estilização.
+    | Link do repositório: https://github.com/agr3w/Att_2_html_Desenvolvimento_WEB_Unifacear
+    | Link da página em web: https://agr3w.github.io/Att_2_html_Desenvolvimento_WEB_Unifacear/
+-->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio - Weslley Kampa</title>
+    <link rel="stylesheet" href="styles/variables.css">
+    <link rel="stylesheet" href="styles/body.css">
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/hero.css">
+    <link rel="stylesheet" href="styles/aboutMe.css">
+    <link rel="stylesheet" href="styles/habilidades.css">
+    <link rel="stylesheet" href="styles/learn.css">
+    <link rel="stylesheet" href="styles/projetos.css">
+    <link rel="stylesheet" href="styles/FormContact.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/responsividade.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="#about">Sobre Mim</a></li>
+            <li><a href="#skills">Habilidades</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <img src="https://avatars.githubusercontent.com/u/91283681?v=4" alt="Foto de perfil" class="profile-img">
+            <h1>Weslley Kampa</h1>
+            <h2>intusiasta em UI/UX e Front-End</h2>
+        </div>
+    </header>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h3>Sobre Mim</h3>
+            <p> Me chamo Weslley Luiz Kampa e sou um estudante e intusiasta no ramo da programação.
+                Nesse site você encontrará meus projetos e meios para se contatar comigo, além de uma
+                demonstração das minhas habilidades no Front-End.</p>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h3>Minhas Habilidades</h3>
+            <ul class="skills-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React.js</li>
+                <li>UI/UX</li>
+                <li>Java</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="learning" class="learning-section">
+        <div class="container">
+            <h3>Jornada de Aprendizado</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tecnologia/Conceito</th>
+                        <th>Status</th>
+                        <th>Comentário</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Componentização e React.js</td>
+                        <td><span class="status-badge complete">Dominado</span></td>
+                        <td>Criação de componentes reutilizáveis para interfaces dinâmicas e escaláveis.</td>
+                    </tr>
+                    <tr>
+                        <td>Firebase (Firestore e Auth)</td>
+                        <td><span class="status-badge complete">Experiente</span></td>
+                        <td>Implementação de autenticação e banco de dados para aplicações em tempo real.</td>
+                    </tr>
+                    <tr>
+                        <td>Documentação</td>
+                        <td><span class="status-badge in-progress">Em Foco</span></td>
+                        <td>Priorizando a criação de documentação clara para o ciclo de vida do software.</td>
+                    </tr>
+                    <tr>
+                        <td>Backend e Segurança</td>
+                        <td><span class="status-badge in-progress">Em Andamento</span></td>
+                        <td>Estudando arquiteturas e práticas para tornar aplicações mais robustas.</td>
+                    </tr>
+                    <tr>
+                        <td>Interface e Experiência do Usuário (UI/UX)</td>
+                        <td><span class="status-badge complete">Paixão</span></td>
+                        <td>Busca contínua por interfaces modernas, intuitivas e inovadoras.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h3>Meus Projetos</h3>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="https://portfolio-weslley-kampa.netlify.app/imgs/NeonGenesis.png"
+                        alt="Imagem do Projeto Neon Genesis" class="card-img">
+                    <div class="card-content">
+                        <h4>Neon Genesis</h4>
+                        <p>Projeto do 3° semestre da faculdade, exemplo de site web para uma empresa de totens de
+                            auto-atendimento. Para melhor entendimento do sistema visite meu GitHub.</p>
+                        <a href="https://neongenesistotens.netlify.app" target="_blank" class="project-link">Ver
+                            projeto</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://portfolio-weslley-kampa.netlify.app/imgs/rpgorg.png "
+                        alt="Imagem do Projeto RPG Organizer" class="card-img">
+                    <div class="card-content">
+                        <h4>RPG Organizer</h4>
+                        <p>Sétimo Projeto desenvolvido para treinar minhas habilidades com React. Utilizei Fire Database
+                            para guardar os dados.</p>
+                        <a href="https://test-b6bc2.web.app/" target="_blank" class="project-link">Ver projeto</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h3>Fale Comigo</h3>
+            <form action="#" method="post">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+
+            <div class="contact-icons">
+                <a href="https://github.com/agr3w" target="_blank" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/weslley-luiz-kampa" target="_blank" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Weslley. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+
+</html>

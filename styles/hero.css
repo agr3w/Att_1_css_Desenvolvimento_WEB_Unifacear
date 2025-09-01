@@ -1,0 +1,28 @@
+/* Cabeçalho "Hero" */
+.hero {
+    background: var(--background-color);
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 3.5em;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.hero-content h2 {
+    font-size: 1.5em;
+    margin: 10px 0 20px;
+    font-style: italic;
+}
+
+.profile-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 4px solid var(--primary-color);
+    object-fit: cover;
+    box-shadow: 0 0 15px rgba(255, 230, 0, 0.5);
+    margin-bottom: 20px;
+}
