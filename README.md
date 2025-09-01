@@ -2,7 +2,7 @@
 
 ## Descrição
 
-Este projeto é uma página de perfil pessoal e portfólio. É uma atividade da disciplina de Desenvolvimento Web. O objetivo é aplicar os conhecimentos de HTML e CSS para criar um perfil que apresente informações, habilidades e aprendizados.
+Este projeto é uma página de perfil pessoal e portfólio. Atividade da disciplina de Desenvolvimento Web. O objetivo é aplicar os conhecimentos de HTML e CSS para criar um perfil que apresente informações, habilidades e aprendizados.
 
 O projeto foi desenvolvido no 4º semestre do curso de Análise e Desenvolvimento de Sistemas (ADS) na instituição UNIFACEAR.
 
